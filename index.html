@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year Resolution Tracker 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">🎯 New Year Resolution Tracker</h1>
+                <p class="subtitle">Make 2025 your best year yet!</p>
+            </div>
+            <div class="year-badge">2025</div>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-value" id="totalGoals">0</div>
+                <div class="stat-label">Total Goals</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="completedGoals">0</div>
+                <div class="stat-label">Completed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="inProgressGoals">0</div>
+                <div class="stat-label">In Progress</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="completionRate">0%</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+        </div>
+
+        <div class="add-goal-section">
+            <h2>Add New Resolution</h2>
+            <form id="goalForm" class="goal-form">
+                <input 
+                    type="text" 
+                    id="goalInput" 
+                    class="goal-input" 
+                    placeholder="What's your resolution? (e.g., Exercise 3 times a week)"
+                    required
+                >
+                <select id="categorySelect" class="category-select">
+                    <option value="health">🏃 Health & Fitness</option>
+                    <option value="career">💼 Career</option>
+                    <option value="learning">📚 Learning</option>
+                    <option value="finance">💰 Finance</option>
+                    <option value="relationships">❤️ Relationships</option>
+                    <option value="hobbies">🎨 Hobbies</option>
+                    <option value="other">✨ Other</option>
+                </select>
+                <button type="submit" class="btn-primary">Add Resolution</button>
+            </form>
+        </div>
+
+        <div class="goals-section">
+            <div class="section-header">
+                <h2>Your Resolutions</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+            </div>
+            <div id="goalsList" class="goals-list">
+                <!-- Goals will be dynamically inserted here -->
+            </div>
+            <div id="emptyState" class="empty-state">
+                <div class="empty-icon">🎯</div>
+                <h3>No resolutions yet</h3>
+                <p>Start by adding your first resolution above!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
