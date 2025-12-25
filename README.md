@@ -1,5 +1,9 @@
 # 🎯 New Year Resolution Tracker 2025
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/new-year-resolution-tracker?style=social)](https://github.com/yksanjo/new-year-resolution-tracker/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/new-year-resolution-tracker.svg)](https://github.com/yksanjo/new-year-resolution-tracker/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/new-year-resolution-tracker.svg)](https://github.com/yksanjo/new-year-resolution-tracker/issues)
+[![Last commit](https://img.shields.io/github/last-commit/yksanjo/new-year-resolution-tracker.svg)](https://github.com/yksanjo/new-year-resolution-tracker/commits/main)
+
+
 A beautiful, modern web application to track your New Year resolutions and goals. Built with vanilla HTML, CSS, and JavaScript - no dependencies required!
 
 ## Features
