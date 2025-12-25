@@ -72,6 +72,15 @@ Feel free to customize the app by editing:
 - `app.js` - Modify functionality and add features
 - `index.html` - Adjust the layout and structure
 
+## Deploy to GitHub Pages
+
+This app can be easily deployed to GitHub Pages for free hosting:
+
+1. Push your code to GitHub
+2. Go to your repository Settings → Pages
+3. Select the `main` branch as the source
+4. Your app will be live at `https://yourusername.github.io/new-year-resolution-tracker/`
+
 ## License
 
 Free to use and modify for personal or commercial projects.
